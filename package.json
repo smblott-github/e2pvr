@@ -1,0 +1,25 @@
+{
+  "name": "e2pvr",
+  "version": "1.0.0",
+  "description": "An Enigma2 PVR system.",
+  "main": "e2pvr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/smblott-github/e2pvr.git"
+  },
+  "author": "Stephen Blott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smblott-github/e2pvr/issues"
+  },
+  "homepage": "https://github.com/smblott-github/e2pvr#readme",
+  "dependencies": {
+    "usey": "^1.5.0"
+  },
+  "bin": {
+    "e2pvr": "./e2pvr.js"
+  }
+}
